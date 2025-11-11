@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: opinion-trade-sdk
+Version: 0.1.0
+Summary: Opinion Trade Python SDK
+Author: Opinion Trade
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: eth-account<0.13,>=0.10.0
+Requires-Dist: aiofiles>=24.0.0
+Requires-Dist: python-dotenv>=1.0.0
+
+# Opinion Trade Python SDK
+
+This directory contains a Python implementation of the Opinion Trade SDK. It mirrors the functionality of the Rust crate in this repository, providing the same APIs for interacting with the Opinion.Trade prediction market.
+
+Refer to the top-level README for usage details or check the `examples` directory for runnable samples.
